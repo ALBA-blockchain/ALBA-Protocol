@@ -1,0 +1,607 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/gscaffino/workspace/LN-bridge/contracts/BTC.sol": {
+      "lastModificationDate": 1698154926723,
+      "contentHash": "b07bd7c78c653b22693d2b1cadd2e739",
+      "sourceName": "contracts/BTC.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./BytesLib.sol",
+        "./SECP256K1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "BTC"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/BytesLib.sol": {
+      "lastModificationDate": 1699282757622,
+      "contentHash": "f2ac81d9ec3554493cc5e52306ec921e",
+      "sourceName": "contracts/BytesLib.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.3 <0.9.0"
+      ],
+      "artifacts": [
+        "BytesLib"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/SECP256K1.sol": {
+      "lastModificationDate": 1697712708603,
+      "contentHash": "d683468a113387e6fd1cf6aec02fae1f",
+      "sourceName": "contracts/SECP256K1.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SECP256K1"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1696932556535,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/ParseBitcoinRawTx.sol": {
+      "lastModificationDate": 1698676076729,
+      "contentHash": "5ea9b9123d0b68c9c4fa96ce17314486",
+      "sourceName": "contracts/ParseBitcoinRawTx.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./BTC.sol",
+        "./BTCUtils.sol",
+        "./SECP256K1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ParseBitcoinRawTx"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/BTCUtils.sol": {
+      "lastModificationDate": 1698053602944,
+      "contentHash": "fd4e259ba476e1ee4dfd2af6127771a8",
+      "sourceName": "contracts/BTCUtils.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BytesLib.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "BTCUtils"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/SafeMath.sol": {
+      "lastModificationDate": 1698676103085,
+      "contentHash": "5309d9d6214851538e82301c3e4ca2b9",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/ParseBTCLib.sol": {
+      "lastModificationDate": 1699455368893,
+      "contentHash": "3c66ccb0b65631aee87eeec2e70e3e1b",
+      "sourceName": "contracts/ParseBTCLib.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./BTC.sol",
+        "./BTCUtils.sol",
+        "./SECP256K1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ParseBTCLib"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/ECDSA.sol": {
+      "lastModificationDate": 1696932536869,
+      "contentHash": "2c00df2266703092f3e080100b9add3f",
+      "sourceName": "contracts/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/CheckBitcoinSigs.sol": {
+      "lastModificationDate": 1698676184972,
+      "contentHash": "3f0466dcfa665cc92af0a320eef5e1e0",
+      "sourceName": "contracts/CheckBitcoinSigs.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TypedMemView.sol",
+        "hardhat/console.sol",
+        "./BTCUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "CheckBitcoinSigs"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/TypedMemView.sol": {
+      "lastModificationDate": 1698676164952,
+      "contentHash": "a603032dff5f7653da99ba1f2b429486",
+      "sourceName": "contracts/TypedMemView.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TypedMemView"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/ViewBTC.sol": {
+      "lastModificationDate": 1698676184972,
+      "contentHash": "da1e80965b7ee87691c12fef3dc334bc",
+      "sourceName": "contracts/ViewBTC.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TypedMemView.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ViewBTC"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/Schnorr.sol": {
+      "lastModificationDate": 1699979400774,
+      "contentHash": "4f3e99b65b5c56bc7689b7885a135909",
+      "sourceName": "contracts/Schnorr.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Schnorr"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/SchnorrN.sol": {
+      "lastModificationDate": 1700577923751,
+      "contentHash": "80bb48bebff2bd90f4a109279b7a9ca4",
+      "sourceName": "contracts/SchnorrN.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SchnorrAccountAbstraction"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/ALBA.sol": {
+      "lastModificationDate": 1700672685515,
+      "contentHash": "bec2dd257896e90987c9c8ff0fff0f93",
+      "sourceName": "contracts/ALBA.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./ParseBTCLib.sol",
+        "./BytesLib.sol",
+        "./BTCUtils.sol",
+        "./ECDSA.sol",
+        "./ALBAHelper.sol",
+        "./SchnorrN.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ALBA"
+      ]
+    },
+    "/Users/gscaffino/workspace/LN-bridge/contracts/ALBAHelper.sol": {
+      "lastModificationDate": 1700672651739,
+      "contentHash": "6197d64d2d3c6e91142deabcf67641fb",
+      "sourceName": "contracts/ALBAHelper.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./ParseBTCLib.sol",
+        "./BytesLib.sol",
+        "./BTCUtils.sol",
+        "./ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ALBAHelper"
+      ]
+    }
+  }
+}
