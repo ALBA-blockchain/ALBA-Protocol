@@ -114,3 +114,7 @@ print("Comm TX V unlocked: ", ct_V_unlocked.serialize())
 # Breakdown Bitcoin Raw Transaction: https://rsbondi.github.io/btc-adventure/
 # Bitcoin transactino decoder: https://live.blockcypher.com/btc/decodetx/
 # Blockstream testnet explorer: https://blockstream.info/testnet/
+
+########## Blockstream transactions ##########
+# Funding Tx used: 59947e2cd3edb89aa0bfe23cf01c655520ca2ea6b02cc0a20409b97542bed31e
+# Commitment trasnaction of P (unlocked) broadcast: 7de6e1c2bf9171f9a2efa45720d6bd5a285bc607d13802349b050d06fed53d31
